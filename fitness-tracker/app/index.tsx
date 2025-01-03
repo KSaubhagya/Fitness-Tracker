@@ -75,7 +75,7 @@ const App = () => {
 
   return (
     <ImageBackground
-      source={require('../assets/images/b3.avif')} 
+      source={require('../assets/images/ul.png')} 
       style={styles.container} 
     >
       <View style={styles.formContainer}>
@@ -140,19 +140,20 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     padding: 24,
-    backgroundColor: "rgba(0, 0, 0, 0.93)", //transparent overlay
+    backgroundColor: "rgba(0, 0, 0, 0.98)", //transparent overlay
   },
   formContainer: {
     width: "100%",
     maxWidth: 400,
     padding: 16,
-    backgroundColor: "#fff",
+    
     borderRadius: 8,
     shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowOffset: { width: 0, height: 2 },
     shadowRadius: 8,
     elevation: 4,
+    backgroundColor: "rgb(249, 246, 246)", //transparent overlay
   },
   title: {
     fontSize: 24,
