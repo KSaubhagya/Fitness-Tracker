@@ -6,9 +6,12 @@ Description: Fitness Tracker is a mobile application built with React Native and
 -User Authentication: Allows users to log in and register using dummy user data, and retrieves the username after successful login.
 
 -Exercise Management: Displays exercises in a card view, including an image, title, description, and difficulty level.
-Add to Task List: Users can add exercises to their task list, with a floating button showing the count and the exercises in the list.
-Exercise Details: Provides detailed information about exercises, including the title, difficulty level, required equipment, and instructions.
-State Management: Utilizes the Context API to manage user data and the task list.
+
+-Add to Task List: Users can add exercises to their task list, with a floating button showing the count and the exercises in the list.
+
+-Exercise Details: Provides detailed information about exercises, including the title, difficulty level, required equipment, and instructions.
+
+-State Management: Utilizes the Context API to manage user data and the task list.
    
 ⚙️ System Requirements
 
