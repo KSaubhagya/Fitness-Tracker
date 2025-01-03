@@ -5,9 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useEffect, createContext, useContext, useState, ReactNode } from 'react';
 import 'react-native-reanimated';
 
-
 SplashScreen.preventAutoHideAsync();
-
 
 interface ClickCountContextType {
   count: number;
@@ -54,10 +52,13 @@ export default function RootLayout() {
   }
 
   return (
-    
     <ClickCountProvider>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        {/* Disable the header for the index screen */}
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+
+        {/* Other screens retain the default header */}
+        <Stack.Screen name="(tabs)" />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />
