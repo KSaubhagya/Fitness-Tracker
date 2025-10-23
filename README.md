@@ -14,8 +14,17 @@ Description: Fitness Tracker is a mobile application built with React Native and
 -State Management: Utilizes the Context API to manage user data and the task list.
    
 ⚙️ System Requirements
-
-    Node.js: LTS version recommended
-    npm or yarn: To install dependencies
-    Expo CLI: Install globally using npm install -g expo-cli
-    Public API: API Ninja
+  <ol>
+    <li>
+      <pre><code>Node.js: LTS version recommended</code></pre>
+    </li>
+     <li>
+      <pre><code> npm or yarn: To install dependencies</code></pre>
+    </li>
+     <li>
+      <pre><code> Expo CLI: Install globally using npm install -g expo-cli</code></pre>
+    </li>
+     <li>
+      <pre><code> Public API: API Ninja</code></pre>
+    </li>
+  </ol>
