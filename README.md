@@ -1,5 +1,5 @@
 # Fitness-Tracker 
-Description: Fitness Tracker is a mobile application built with React Native and Expo. It allows users to gain insight on various exercises , add them to the task list, and view in-depth information on their difficulty, equipment and performing fetched from a public API. 
+Description: Fitness Tracker is a mobile application built with React Native and Expo. It allows users to gain insight on various exercises , add them to the task list, and view in-depth information on their difficulty, equipment and performance fetched from a public API. 
 
 ✨ Features
 
