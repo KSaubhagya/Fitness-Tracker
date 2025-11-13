@@ -12,7 +12,7 @@ interface Exercise {
   muscle: string;
   equipment: string;
   instructions: string;
-  image: any; 
+  image: any;
 }
 
 const HomePage = () => {
